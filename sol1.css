@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    background-color:hsl(210, 60%, 98%);
+    
+    
+}
+.container{
+    max-width:600px;
+}
+.wrapper{
+    background-color:white ;
+    padding:20px 15px;
+    border-radius:10px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+    align-items: center;
+}
+.header h1{
+    font-size:20px;
+    font-weight: 800;
+}
+.header a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+}
+.header a:hover,.users-activity .name:hover,.user-activity .highlighted:hover{
+    color:darkblue;
+}
+.private-message:hover{
+    background-color: hsl(205, 33%, 90%);
+    cursor: pointer;
+}
+.header span{
+    background-color:darkblue;
+    color: white;
+    width:35px;
+    display: inline-block;
+    text-align: center;
+    border-radius:5px;
+    margin-left:10px;
+    font-weight:600;
+}
+.user1,.user2,.user3{
+    background-color:hsl(210, 60%, 98%) ;
+}
+.user1,.user2,.user3,.user4,.user5,.user6,.user7{
+    border-radius:5px;
+    margin-bottom:10px;
+    display:flex;
+    padding:10px;
+    
+}
+.users-activity img{
+    width:40px;
+    height:40px;
+    object-fit: cover;
+    margin-right:10px;
+}
+.user-activity p ,.time{
+    display: block;
+    font-size:13px;
+}
+.user-activity .time{
+    font-weight:400;
+}
+.user-activity span{
+    display:inline;
+}
+.private-message{
+    background-color: white;
+    border-radius:5px;
+    padding:15px;
+    margin:5px;
+    border:2px solid hsl(205, 33%, 90%);
+}
+.user5{
+    display: flex;
+    justify-content: space-between;
+}
+.user-5-sub{
+    display: flex;
+}
+.user-activity .red-dot{
+    display: inline-block;
+    width:5px;
+    height:5px;
+    background-color: red;
+    border-radius:50%;
+    margin-left:5px;
+}
+.users-activity a{
+    text-decoration: none;
+    color:blue;
+    font-weight: 800;
+}
+.user-activity .name{
+    font-weight:800;
+    color:black;
+    margin-right:5px;
+    font-size:14px;
+}
+.user-activity p{
+    color:hsl(219, 12%, 42%);
+    font-weight: 500;
+}
+.users-activity .highlighted{
+    color:hsl(219, 12%, 42%);;
+    font-weight:800;
+}
+@media(max-width:400px){
+
+}
